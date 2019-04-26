@@ -13,7 +13,7 @@ function destructivelyRemoveLastKitten(){
 
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
-  return kittens;
+  return kittens
 }
 
 function destructivelyRemoveFirstKitten(){
@@ -37,8 +37,4 @@ function removeLastKitten(){
   var kittensArray = [...kittens]
   kittensArray.shift();
   return kittensArray
-}
-
-function removeFirstKitten(){
-  var kittensArray = [...]
 }
